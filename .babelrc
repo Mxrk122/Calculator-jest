@@ -1,0 +1,14 @@
+{
+    //Neesario para que lo entienda el test
+    "presets": ["@babel/preset-env", [
+      "@babel/preset-react", {
+      "throwIfNamespace": false, // defaults to true
+      "runtime": "automatic", // defaults to classic
+      "importSource": "react" // defaults to react
+    }]
+  ],
+    "plugins": [
+        "@babel/plugin-transform-react-jsx",
+        "@emotion/babel-plugin"
+      ]
+}

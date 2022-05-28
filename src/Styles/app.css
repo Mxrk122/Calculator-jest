@@ -1,0 +1,16 @@
+body, html{
+    background-color: #CDD7D6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App{
+    margin-top: 30%;
+    background-color: #FFFF;
+    padding: 30px;
+    padding-left: 22px;
+    border: 2px solid #102542;
+    box-shadow: rgb(255, 255, 255) 10px -10px 0px -45px, #102542 5px 5px;
+}
